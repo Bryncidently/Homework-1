@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*relates to everything inside of the class header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +25,18 @@ body {
     color: #ffffff;
 }
 
+/* for class header and h1 tags*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the color of text SEO in header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* specifies style for elements within the nav tag of the header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,22 +45,15 @@ body {
     font-size: 20px;
 }
 
+/* specifies style for elements within the nav tag of the header and ul*/
 .header nav ul {
     list-style-type: none;
 }
 
+/* specifies style for elements within the nav tag of the header ul li*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
