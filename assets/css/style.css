@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* elements*/
 body {
     background-color: #d9dcd6;
 }
@@ -17,6 +17,7 @@ p {
     font-size: 16px;
 }
 
+/* classes*/
 /*relates to everything inside of the class header*/
 .header {
     padding: 20px;
